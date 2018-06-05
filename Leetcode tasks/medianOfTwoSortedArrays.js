@@ -10,9 +10,9 @@
 
 var findMedianSortedArrays = function(nums1, nums2) {
     var merge = function(left, right) {
-        let result = []
-        let indexLeft = 0
-        let indexRight = 0
+        var result = [],
+            indexLeft = 0,
+            indexRight = 0;
 
         while (indexLeft < left.length && indexRight < right.length) {
             if (left[indexLeft] < right[indexRight]) {
@@ -39,11 +39,11 @@ var findMedianSortedArrays = function(nums1, nums2) {
         var pos1 = Math.floor(resultLength / 2) - 1,
             pos2 = Math.floor(resultLength / 2);
 
-         if(resultLength > 4) {
+        if(resultLength > 4) {
             return (resultArray[pos1] + resultArray[pos2]) / 2;
         } else {
-           if(resultLength === 1) {
-               return resultArray[0];
+            if(resultLength === 1) {
+                return resultArray[0];
             } else {
                 return (resultArray[pos1] + resultArray[pos2]) / 2;
             }
