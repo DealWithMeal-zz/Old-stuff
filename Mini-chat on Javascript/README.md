@@ -1,3 +1,8 @@
+This is a really old interview task which I've solved for a company right in the beginning of my employment history.
+Basically, this was my level of coding when I had 0 years of experience.
+
+-----------------------------------
+
 # Mini-chat on Javascript
 
 This project was my test task on Javascript / PHP / HTML / CSS knowledge, which I actually passed.
