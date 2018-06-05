@@ -16,11 +16,11 @@ var findMedianSortedArrays = function(nums1, nums2) {
 
         while (indexLeft < left.length && indexRight < right.length) {
             if (left[indexLeft] < right[indexRight]) {
-                result.push(left[indexLeft])
-                indexLeft++
+                result.push(left[indexLeft]);
+                indexLeft++;
             } else {
-                result.push(right[indexRight])
-                indexRight++
+                result.push(right[indexRight]);
+                indexRight++;
             }
         }
         
